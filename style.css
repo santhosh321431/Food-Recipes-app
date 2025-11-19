@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+}
+h1,ul,li{
+    display: inline;
+    color: white;
+    
+}
+h1{
+    color:white;
+    
+}
+li:hover{
+    background-color: black;
+    color: yellow;
+}
+
+li{
+    padding: 15px;
+   
+    margin-left: 30px;
+
+}
+body{
+    background-image: url(photo1.jpg);
+    background-size: cover;
+    
+}
+.header{
+    margin: 20px;
+}
+
+.center{
+    text-align: center;
+    margin-top: 80px;
+    color: white;
+}
+h3{
+    display: inline;
+    color:white;
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+    padding: 10px;
+}
+ol{
+    padding: 2%;
+    margin: 1%;
+    h3{
+        background-color: black;
+        color: yellow;
+    }
+   
+}
+nav{
+    margin-top: 10%;
+    h1{
+        font-family:  sans-serif;
+    }
+}
+h3{
+    margin: 10px;
+    padding: 15px;
+}
+
+.reference{
+    text-align: center;
+    margin-top: 30px;
+
+    
+    
+}
+h4{
+    margin: 2px;
+    color: white;
+    display: inline;
+}
+.end{
+    margin: 5%;
+    text-align: center;
+    p{
+        margin-top: 5px;
+    }
+    border-color: yellow;
+    border-style: solid;
+    border-width: 2px;
+    h5,p{
+color: white;
+    }
+
+}
+
+    h5{
+        margin-top: 10px;
+    }
+ .end:hover{
+    
+    h5,br,p{
+        background-color: black;
+        color: yellow;
+    }
+ } 
+
+ @media screen and ( min-width:250px)and (max-width:750px){ 
+   .header h1,ul,li{
+    display: block;
+   }
+    .center h1,h3 {
+        display: block;
+    }
+    .reference h1{
+         display: block;
+    }
+    .reference h4{
+        display: block;
+    }
+   
+    
+ }
+
+ @media screen and ( min-width:750px)and (max-width:950px){ 
+   .header h1,ul,li{
+    display: block;
+   }
+    .center h1,h3 {
+        display: block;
+    }
+    .reference h1{
+         display: block;
+    }
+    .reference h4{
+        display: block;
+    }
+   
+    
+ }
